@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/tv_commonTab"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingLeft="10dp"
+        android:gravity="center_vertical"
+        android:text="不支持滑动的类底部宽满屏tab"/>
+    <TextView
+        android:id="@+id/tv_slideTab"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingLeft="10dp"
+        android:gravity="center_vertical"
+        android:text="支持滑动的简单tab"/>
+    <TextView
+        android:id="@+id/tv_segmentTab"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingLeft="10dp"
+        android:gravity="center_vertical"
+        android:text="支持平分居中的tab"/>
+</LinearLayout>
